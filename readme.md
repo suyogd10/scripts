@@ -9,7 +9,7 @@
 ````
 vi <filename.sh>
 ``````
-4)Add the below script, make sure to update the email address:
+4)Add the below script, make sure to replace the test@test.com with your email address :
 ``````
 #This script will send you the alert whenever the server load goes above the value set for trigger
 #!/bin/bash
@@ -26,7 +26,7 @@ SUBJECT="CPU Load on $(hostname)"
 
 MESSAGE="/tmp/data.txt"
 
-TO=<test@test.com>;
+TO=test@test.com;
 
   echo "CPU Current Usage is: $load%" >> $MESSAGE
 
