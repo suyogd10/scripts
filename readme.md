@@ -26,7 +26,7 @@ SUBJECT="CPU Load on $(hostname)"
 
 MESSAGE="/tmp/data.txt"
 
-TO=suyog.deshpande@cerner.com;
+TO=<test@test.com>;
 
   echo "CPU Current Usage is: $load%" >> $MESSAGE
 
